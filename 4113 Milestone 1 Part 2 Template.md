@@ -1,20 +1,22 @@
 # IY4113 Milestone 1 Part 2
 
-| Assessment Details | Please Complete All Details |
-| ------------------ | --------------------------- |
-| Group              | A                           |
-| Module Title       | IY4113                      |
-| Assessment Type    |                             |
-| Module Tutor Name  | Jonathon Shore              |
-| Student ID Number  | P488221                     |
-| Date of Submission |                             |
-| Word Count         |                             |
-| GitHub Link        |                             |
+| Assessment Details | Please Complete All Details                       |
+| ------------------ | ------------------------------------------------- |
+| Group              | A                                                 |
+| Module Title       | IY4113                                            |
+| Assessment Type    |                                                   |
+| Module Tutor Name  | Jonathon Shore                                    |
+| Student ID Number  | P488221                                           |
+| Date of Submission |                                                   |
+| Word Count         |                                                   |
+| GitHub Link        | https://github.com/T0488221Taymas/T0488221_Java_2 |
 
 - [x] *I confirm that this assignment is my own work. Where I have referred to academic sources, I have provided in-text citations and included the sources in
   the final reference list.*
 
 - [x] *Where I have used AI, I have cited and referenced appropriately.
+  
+  
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -168,11 +170,7 @@ Ends the program.
 
 ![Flow chart - Frame 4 (1).jpg](C:\Users\user\Downloads\Flow%20chart%20-%20Frame%204%20(1).jpg)
 
-
-
 ![Flow chart - Frame 5.jpg](C:\Users\user\Downloads\Flow%20chart%20-%20Frame%205.jpg)
-
-
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -230,6 +228,12 @@ The functions that would be reused in the project are login system and separate 
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-*Add diary entries here detailing what you have done, wny you have done it, and any problems encountered.*
+ **21-03-2026**
+
+On the first day of work I started to do the input output and process table, in the process of completing this table no difficulties were found, as I took an example from previous milestones and simply added a couple of functions. Then I made the purpose of the program with which there were also no problems, as an identical task was before. And finally a Gantt chart was made, where 3 weeks of the following implementation of this project were planned.
+
+**22-030-2026**
+
+On the last day before the deadline a class diagram was made, during the period of completing this task I faced a problem such as fatigue, as I was doing it late at night, understanding that there is little time left and it needs to be done, after I finished completing the class diagram I went to sleep, and when I woke up I continued completing the tasks and moved to the research, this part seemed the most difficult to me, as during the first half an hour of searching for a similar project nothing gave results, but in the end the project was still found. And in the end the flow chart task was completed, as the base was already set in the previous project, it only remained to add to it. I think that with the problems and stress that I experienced it would have been possible to deal with them by starting at least a day earlier, but unfortunately this did not happen.
 
 ------------------------------------------------------------------------------------------------------------------------------
