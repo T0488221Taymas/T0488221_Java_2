@@ -156,6 +156,24 @@ Ends the program.
 
 ![class](C:\Users\user\Downloads\class%20diagramm%20-%20Frame%201%20(1).jpg)
 
+### Flow Chart
+
+![a](C:\Users\user\Downloads\Flow%20chart%20-%20choose.jpg)
+
+![b](C:\Users\user\Downloads\Flow%20chart%20-%20Frame%201.jpg)
+
+![c](C:\Users\user\Downloads\Flow%20chart%20-%20Frame%202.jpg)
+
+![Flow chart - Frame 3.jpg](C:\Users\user\Downloads\Flow%20chart%20-%20Frame%203.jpg)
+
+![Flow chart - Frame 4 (1).jpg](C:\Users\user\Downloads\Flow%20chart%20-%20Frame%204%20(1).jpg)
+
+
+
+![Flow chart - Frame 5.jpg](C:\Users\user\Downloads\Flow%20chart%20-%20Frame%205.jpg)
+
+
+
 ------------------------------------------------------------------------------------------------------------------------------
 
 ### Research (minimum of 1 required, preferrebly 2)
@@ -185,8 +203,6 @@ The program has not option to exit, which makes it infinity, the one choice to e
 **Key design ideas you could reuse (e.g., layout, navigation, input/output, program structure):**
 
 The functions that would be reused in the project are login system and separate file handlings.
-
-
 
 **Screenshot (showing the interface/output)**:
 
