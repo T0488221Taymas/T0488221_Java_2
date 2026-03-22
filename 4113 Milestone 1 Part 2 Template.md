@@ -22,7 +22,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-*Add purpose of the program, identify core program functionality and and system contraints.*
+The purpose of the CityRide Lite program is to track user trips and calculate the total cost of travel on public transport for one day for one user in a console - based Java application, taking into account fare zones, discounts, and daily spending limits. Additionally, the program provides an admin role that manages the system, edits prices, caps, and peak windows.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -97,7 +97,7 @@ Screenshot (showing the interface/output):
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-*Add Gantt Chart (it maybe easier to create chart in Excel and paste as an image!)*
+![*Add Gantt Chart (it maybe easier to create chart in Excel and paste as an image!)](C:\Users\user\Pictures\Screenshots\Снимок%20экрана%202026-03-22%20034729.png)*
 
 ------------------------------------------------------------------------------------------------------------------------------
 
