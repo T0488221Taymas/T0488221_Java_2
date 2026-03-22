@@ -34,9 +34,6 @@ The program displays the chosen of the role: user or admin. Depending on the sel
 
 The program allows the user to either register a new account or log in to an existing account by entering the required credentials.
 
-
-
-
 - **User's Menu Display**
 
 The program displays the user's options: add journey, list journey, filter journeys, view
@@ -155,9 +152,9 @@ Ends the program.
 
 ---
 
-- *Add **images** for the design of your algorithm. Choose either Flowchart or JSP diagrams to demonstrate the functional elements of the algorithm. There should be multiple images for this part as you are decomposing the problem into smaller elements.*
+#### Class Diagramm
 
-- *Include a class diagram to demonstrate the class structure of the proposed program design.
+![class](C:\Users\user\Downloads\class%20diagramm%20-%20Frame%201%20(1).jpg)
 
 ------------------------------------------------------------------------------------------------------------------------------
 
