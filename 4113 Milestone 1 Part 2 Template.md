@@ -24,6 +24,96 @@
 
 The purpose of the CityRide Lite program is to track user trips and calculate the total cost of travel on public transport for one day for one user in a console - based Java application, taking into account fare zones, discounts, and daily spending limits. Additionally, the program provides an admin role that manages the system, edits prices, caps, and peak windows.
 
+### Core program functionality
+
+- **Choose position**
+
+The program displays the chosen of the role: user or admin. Depending on the selection, program displays different menu
+
+- **Registration / Login**
+
+The program allows the user to either register a new account or log in to an existing account by entering the required credentials.
+
+
+
+
+- **User's Menu Display**
+
+The program displays the user's options: add journey, list journey, filter journeys, view
+daily summary, view totals by passenger type, remove journey, reset day, and exit. The program runs until the user selects exit.
+
+- **Add Journey**
+
+The system allows the user to add a trip by entering the relevant information (date, time band (Peak/Off-peak), from zone, to zone, passenger type). The input is then validated.
+
+- **List of Journeys**
+
+The user can view all added trip information.
+
+- **Filter Journeys**
+
+The program allows filtering the trip list by several criteria: passenger type, time band (Peak/Off-peak), zone (from or to), and date.
+
+- **View Daily Summary**
+
+The program displays daily information, including the number of trips per day, total cost, average trip cost, and the most expensive trip. All values ​​are rounded to 2 decimal places.
+
+- **Viewing totals by passenger type**
+
+The system displays separate information for each passenger type, including the number of trips, the total cost, and whether the daily limit has been reached.
+
+- **Deleting a trip**
+
+The user can cancel a trip by entering its ID. If the ID is correct, the trip is deleted. The user must confirm, after which the total cost is recalculated.
+
+- **Cost Calculation**
+
+The system calculates the trip price based on the passenger type and applies a discount. If the user has reached the daily limit, they are no longer charged.
+
+- **Errors**
+
+If the user has entered incorrect data, the program notifies them and asks them to repeat the entry until the data is correct.
+
+- **Reset Day**
+
+The program clears all information and starts from scratch.
+
+- **Admin's menu display**
+
+The program displays a menu with administrator options, such as managing fares, caps, peak time windows, and discounts.
+
+- **Add (Admin Function)**
+
+The administrator can add new system settings, such as fares, caps, peak time windows, or discounts, by entering the required data. The input is validated before being applied to the system.
+
+- **Update (Admin Function)**
+
+The administrator can update existing system settings, such as fares, caps, peak time windows, or discounts, by modifying the required data. All changes are validated before being applied.
+
+- **Delete (Admin Function)**
+
+The administrator can delete existing system settings, such as fares, caps, peak time windows, or discounts. The system requires confirmation before deletion, after which the changes are applied. All changes are validated before being applied.
+
+- **Exit**
+
+Ends the program.
+
+### System constraints (limitations / rules)
+
+- **Console UI only**: interaction occurs via text menus and keyboard input.
+
+- **User limit:** the program only supports one user.
+
+- **Files system:** data stores in files, all data won't lost after program finishes
+
+- **Cost calculation rules:** after reaching the daily limit, the program charges £0.00 for subsequent trips and applies discounts to certain user types.
+
+- **Add journey rule:** a trip is added only if all data for it is correct.
+
+- **Delete journey rule:** a valid ID must be entered and the user must confirm deletion; totals are then recalculated.
+
+- **Session end:** the program only ends after the user selects "exit" from the menu.
+
 ------------------------------------------------------------------------------------------------------------------------------
 
 ### Input Process Output Table
@@ -97,7 +187,7 @@ Screenshot (showing the interface/output):
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-![*Add Gantt Chart (it maybe easier to create chart in Excel and paste as an image!)](C:\Users\user\Pictures\Screenshots\Снимок%20экрана%202026-03-22%20034729.png)*
+![*](C:\Users\user\Pictures\Screenshots\Gantt%20Chart%202.png)
 
 ------------------------------------------------------------------------------------------------------------------------------
 
