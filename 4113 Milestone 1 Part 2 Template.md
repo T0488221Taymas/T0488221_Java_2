@@ -166,19 +166,41 @@ Ends the program.
 
 *Use the strucutre below to capture your evidence:*
 
-------------------------------------------------------------------------------------------------------------------------------Name of program:
+------------------------------------------------------------------------------------------------------------------------------**Name of program:** *A c++ Application with functionality to install Bus ,Bus reservation ,show Bus ,delete Bus using file handling Concept*.
 
-Reference (link):
+**Reference (link):** Shubham S. (2020). *A c++ Application with functionality to install Bus ,Bus reservation ,show Bus ,delete Bus using file handling Concept*. Retrieved from: [GitHub - shubmSingh/Bus-Reservation-System: A c++ Application with functionality to install Bus ,Bus reservation ,show Bus ,delete Bus using file handling Concept · GitHub](https://github.com/shubmSingh/Bus-Reservation-System) [Accessed 22 March 2026 ].
 
-What it does well (2-3 features that work effectively):
+**What it does well (2-3 features that work effectively)**: 
 
-What it does poorly (at least 1 feature):
+The advantages of the program are that it has an account registration system and stores it in a specific file. Thanks to this, after the program is closed, you can run it again and log in using the registered username and password.
 
-Key design ideas you could reuse (e.g., layout, navigation, input/output, program structure):
+Also, the program creates and stores information not in one file, but in several, separating the data into different files, which makes it easier to read and store the data. 
 
-Screenshot (showing the interface/output):
+In addition, the program is complete and not just a set of functions, as it includes registration, adding and deleting journeys, and other features.
 
-------------------------------------------------------------------------------------------------------------------------------
+**What it does poorly (at least 1 feature)**:
+
+The program has not option to exit, which makes it infinity, the one choice to exit from the program enter invalid input. Also it is not clear what to input in some places.
+
+**Key design ideas you could reuse (e.g., layout, navigation, input/output, program structure):**
+
+The functions that would be reused in the project are login system and separate file handlings.
+
+
+
+**Screenshot (showing the interface/output)**:
+
+![a](C:\Users\user\Pictures\Screenshots\Снимок%20экрана%202026-03-22%20171227.png)
+
+![b](C:\Users\user\Pictures\Screenshots\Снимок%20экрана%202026-03-22%20171322.png)
+
+![a](C:\Users\user\Pictures\Screenshots\Снимок%20экрана%202026-03-22%20171333.png)
+
+![c](C:\Users\user\Pictures\Screenshots\Снимок%20экрана%202026-03-22%20171415.png)
+
+-------------------------------------------------------------------------
+
+-----------------------------------------------------
 
 ### Gantt Chart
 
