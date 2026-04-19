@@ -22,19 +22,29 @@ final class CityRideDataset {
         SENIOR_CITIZEN
     }
 
-    public static final Map<PassengerType, BigDecimal> DISCOUNT_RATE = Map.of(
-            PassengerType.ADULT, new BigDecimal("0.00"),
-            PassengerType.STUDENT, new BigDecimal("0.25"),
-            PassengerType.CHILD, new BigDecimal("0.50"),
-            PassengerType.SENIOR_CITIZEN, new BigDecimal("0.30")
-    );
 
-    public static final Map<PassengerType, BigDecimal> DAILY_CAP = Map.of(
-            PassengerType.ADULT, new BigDecimal("8.00"),
-            PassengerType.STUDENT, new BigDecimal("6.00"),
-            PassengerType.CHILD, new BigDecimal("4.00"),
-            PassengerType.SENIOR_CITIZEN, new BigDecimal("7.00")
-    );
+    public static void updateDiscount(PassengerType type, BigDecimal newDiscount) {
+        DISCOUNT_RATE.put(type, newDiscount);
+    }
+    public static void updateCap(PassengerType type, BigDecimal newCap) {
+        DAILY_CAP.put(type, newCap);
+    }
+
+
+    public static final Map<PassengerType, BigDecimal> DISCOUNT_RATE = new HashMap<>();
+    public static final Map<PassengerType, BigDecimal> DAILY_CAP = new HashMap<>();
+
+    static {
+        DISCOUNT_RATE.put(PassengerType.ADULT, new BigDecimal("0.00"));
+        DISCOUNT_RATE.put(PassengerType.STUDENT, new BigDecimal("0.25"));
+        DISCOUNT_RATE.put(PassengerType.CHILD, new BigDecimal("0.50"));
+        DISCOUNT_RATE.put(PassengerType.SENIOR_CITIZEN, new BigDecimal("0.30"));
+
+        DAILY_CAP.put(PassengerType.ADULT, new BigDecimal("8.00"));
+        DAILY_CAP.put(PassengerType.STUDENT, new BigDecimal("6.00"));
+        DAILY_CAP.put(PassengerType.CHILD, new BigDecimal("4.00"));
+        DAILY_CAP.put(PassengerType.SENIOR_CITIZEN, new BigDecimal("7.00"));
+    }
 
     public static final Map<String, BigDecimal> BASE_FARE = buildBaseFare();
 

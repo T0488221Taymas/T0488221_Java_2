@@ -1,0 +1,14 @@
+{
+"discounts": {
+"ADULT": 0.1,
+"SENIOR_CITIZEN": 0.30,
+"STUDENT": 0.25,
+"CHILD": 0.50,
+},
+"caps": {
+"ADULT": 8.00,
+"SENIOR_CITIZEN": 7.00,
+"STUDENT": 6.00,
+"CHILD": 4.00,
+}
+}

@@ -1,0 +1,8 @@
+{
+"name": "Akhaev",
+"passengerType": "Adult",
+"paymentMethod": "card",
+"journeys": [
+{"id": 1,"date": "9999-12-31","from": 1,"to": 2,"fare": 2.2400,"passengerType": "Senior","timeBand": "Peak"}
+]
+}
